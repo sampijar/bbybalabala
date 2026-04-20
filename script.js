@@ -15,9 +15,9 @@ const playerContainer = document.querySelector(".music-floater");
 let currentPlayingKey = null;
 
 const songs = {
-  perfect: { url: "myAudio/lagu-perfect.mp3", title: "Perfect - Ed Sheeran" },
-  thousand: { url: "myAudio/lagu-thousand.mp3", title: "A Thousand Years" },
-  allofme: { url: "myAudio/lagu-allofme.mp3", title: "All of Me - John Legend" }
+  perfect: { url: "myAudio/Liil Thing.mp3", title: "Maliq & D'Essentials - Lil Thing" },
+  thousand: { url: "myAudio/The Beatles - Here, There and Everywhere.mp3", title: "The Beatles - Here, There and Everywhere" },
+  allofme: { url: "myAudio/SOULFUL CORP - KETIKA KAU MENYAPA.mp3", title: "Soulful Corp - Ketika Kau Menyapa" }
 };
 
 function changeText() {
@@ -53,7 +53,7 @@ function enterWebsite() {
   }, 800);
 }
 
-const startDate = new Date("2023-02-14T00:00:00").getTime();
+const startDate = new Date("2026-01-23T00:00:00").getTime();
 
 function updateTimer() {
   const now = new Date().getTime();
