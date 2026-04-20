@@ -15,9 +15,9 @@ const playerContainer = document.querySelector(".music-floater");
 let currentPlayingKey = null;
 
 const songs = {
-  perfect: { url: "myAudio/Liil Thing.mp3", title: "Maliq & D'Essentials - Lil Thing" },
-  thousand: { url: "myAudio/The Beatles - Here, There and Everywhere.mp3", title: "The Beatles - Here, There and Everywhere" },
-  allofme: { url: "myAudio/SOULFUL CORP - KETIKA KAU MENYAPA.mp3", title: "Soulful Corp - Ketika Kau Menyapa" }
+  Liil: { url: "myAudio/Liil Thing.mp3", title: "Maliq & D'Essentials - Lil Thing" },
+  Here: { url: "myAudio/The Beatles - Here, There and Everywhere.mp3", title: "The Beatles - Here, There and Everywhere" },
+  KETIKA: { url: "myAudio/SOULFUL CORP - KETIKA KAU MENYAPA.mp3", title: "Soulful Corp - Ketika Kau Menyapa" }
 };
 
 function changeText() {
